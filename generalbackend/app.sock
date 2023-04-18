@@ -1,0 +1,2 @@
+nc -l 80
+nc https://master.dg3mixi9t9qd1.amplifyapp.com/
