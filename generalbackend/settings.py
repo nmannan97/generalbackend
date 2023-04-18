@@ -31,6 +31,7 @@ SECURE_PROXY_SSL_HEADER = False
 ALLOWED_HOSTS = ['*']
 APPEND_SLASH=False
 # Application definition
+ASGI_APPLICATION = True
 
 INSTALLED_APPS = [
     'waitlist.apps.WaitlistConfig',
@@ -83,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'generalbackend.wsgi.application'
+ASGI_APPLICATION = 'generalbackend.asgi.application'
 
 
 # Database
