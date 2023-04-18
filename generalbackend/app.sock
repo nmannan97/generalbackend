@@ -1,2 +1,2 @@
-nc -l 80
-nc https://master.dg3mixi9t9qd1.amplifyapp.com/
+nc -l 3.145.177.101 80
+nc https://master.dg3mixi9t9qd1.amplifyapp.com/ 80
