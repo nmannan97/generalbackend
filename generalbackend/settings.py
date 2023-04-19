@@ -63,6 +63,9 @@ CORS_ALLOWED_ORIGINS = [
     'http://10.0.0.58:3000',
 
 ]
+CORS_ORIGIN_WHITELIST = [
+    'https://master.dejj54onsbovf.amplifyapp.com/',
+]
 
 ROOT_URLCONF = 'generalbackend.urls'
 
