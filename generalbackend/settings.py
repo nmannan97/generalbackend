@@ -31,8 +31,6 @@ SECURE_PROXY_SSL_HEADER = False
 ALLOWED_HOSTS = ['*']
 APPEND_SLASH=False
 # Application definition
-ASGI_APPLICATION = True
-
 INSTALLED_APPS = [
     'waitlist.apps.WaitlistConfig',
     'django.contrib.admin',
@@ -84,7 +82,7 @@ TEMPLATES = [
     },
 ]
 
-ASGI_APPLICATION = 'generalbackend.asgi.application'
+WSGI_APPLICATION = 'generalbackend.wsgi.application'
 
 
 # Database
