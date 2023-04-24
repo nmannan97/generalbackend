@@ -61,10 +61,12 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # Replace with your frontend URL
     "http://127.0.0.1:3000",
     'http://10.0.0.58:3000',
+    'https://yourshot.app',
 
 ]
 CORS_ORIGIN_WHITELIST = [
     'https://master.dejj54onsbovf.amplifyapp.com/',
+    'https://yourshot.app',
 ]
 
 ROOT_URLCONF = 'generalbackend.urls'
